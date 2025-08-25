@@ -35,7 +35,8 @@ int main(void)
     for (int i=0; i<4; i++)
     {
         if (strcmp(people[i].name, name) == 0)
-        // if (strcmp(people[i].name, name) == 0 && strcmp(people[i].number, number) == 0)
+        // you can use this for checking both Name and Numbers:
+            // if (strcmp(people[i].name, name) == 0 && strcmp(people[i].number, number) == 0)
         {
             printf("The phone number of %s is %s\n", people[i].name, people[i].number);
             return 0;
